@@ -2,6 +2,9 @@
 
 A machine learning classification project that predicts the instrument being played in a particular wavfile. Specifically, we visualize, clean, and format the data to feed them through either a convolutional or recurrent neural network for predictions. 
 
+## Background Information / Documentation
+Notes and background information can be found on my [Gitbook](https://lauradang.gitbook.io/notes/side-projects/machine-learning-audio-classification)
+
 ## Steps to Run:
 1. Install dependencies using `pip install -r requirements.txt`.
 2. Run `visualizing.ipynb` Jupyter Notebook to produce a `clean` directory which contains the cleaned wavfiles.
