@@ -18,7 +18,3 @@ Notes and background information can be found on my [Gitbook](https://lauradang.
 * [Tensorflow - Keras](https://www.tensorflow.org/guide/keras) - Used to create CNN and RNN and train data
 * [Pandas](https://pandas.pydata.org/) - Cleaning and formatting data
 
-## Author
-
-Laura Dang
-
