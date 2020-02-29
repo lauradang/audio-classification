@@ -1,0 +1,6 @@
+clean
+wavfiles
+.DS_Store
+saved_models
+pickles
+audio

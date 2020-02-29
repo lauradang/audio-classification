@@ -1,11 +1,5 @@
-# Audio-Classification
-empty directory for audio classification videos
-
-### Setup a conda virtual environment (windows)
-
-```
-conda create -n audio python=3.6
-activate audio
-pip install -r requirements.txt
-```# audio-classification
-# audio-classification
+Steps to Run:
+1. Run `visualizing.ipynb` Jupyter Notebook.
+2. Run `prepare_data.py`.
+3. Run `model.py`.
+4. Run `predict.py`.
