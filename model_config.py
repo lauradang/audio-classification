@@ -1,9 +1,13 @@
-class ModelConfig:
+"""The class that defines certain constants of the model."""
+
+import numpy as np
+
+class Model:
     # nfft is 512 now since our rate has been downsampled (now the default)
     def __init__(
         self, 
-        min=float("inf"),
-        max=-float("inf"),
+        min=np.Inf,
+        max=-np.Inf,
         X=0,
         y=0,
         mode="conv", 

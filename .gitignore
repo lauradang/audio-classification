@@ -1,6 +1,6 @@
-clean
-wavfiles
+.ipynb_checkpoints
+__pycache__
+clean_wavfiles
+raw_wavfiles
 .DS_Store
-saved_models
-pickles
 audio
