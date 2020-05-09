@@ -20,6 +20,6 @@ The model reaches a 97.3% validation accuracy.
 5. Run `train.py` to train the data on the model and produces a `saved_models` directory with the CNN saved. Run `python3 train.py -h` for instructions on how to run the script.
 
 ## Mainly Built With
-* [Scipy](https://docs.scipy.org/doc/scipy-0.14.0/reference/index.html) - For retrieving audio samples
-* [Tensorflow - Keras](https://www.tensorflow.org/guide/keras) - Used to create CNN
+* [Scipy](https://docs.scipy.org/doc/scipy-0.14.0/reference/index.html)/[Librosa](https://librosa.github.io/librosa/) - For retrieving audio samples and sampling rates
 * [python_speech_features](https://python-speech-features.readthedocs.io/en/latest/) - Extracting MFCCs for training data
+* [Tensorflow Keras](https://www.tensorflow.org/guide/keras) - Used to create CNN
