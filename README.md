@@ -17,7 +17,7 @@ The model reaches a 97.3% validation accuracy.
 2. Raw wavfiles can be found in seth814's Github [repo](https://github.com/seth814/Audio-Classification/tree/018692a618ed4c3f9b9af7467a8246fc4fbaf1bb).
 3. Run [visualizing.ipynb](https://github.com/lauradang/audio-classification/blob/master/visualizing.ipynb) Jupyter Notebook to produce a directory that contains the cleaned wavfiles. Change constants as needed.
 4. Run [prepare_data.py](https://github.com/lauradang/audio-classification/blob/master/prepare_data.py) to produce a directory with the prepared training data as pickles. Run `python3 prepare_data.py -h` for instructions on how to run the script.
-5. Run [train.py](https://github.com/lauradang/audio-classification/blob/master/train.py) to train model using the data in the directory that contains the pickled data and produces a directory that contains the trained CNN. Run `python3 train.py -h` for instructions on how to run the script.
+5. Run [train.py](https://github.com/lauradang/audio-classification/blob/master/train.py) to train the model on the pickled data and produces a directory that contains the trained CNN. Run `python3 train.py -h` for instructions on how to run the script.
 
 ## Mainly Built With
 * [Scipy](https://docs.scipy.org/doc/scipy-0.14.0/reference/index.html)/[Librosa](https://librosa.github.io/librosa/) - For retrieving audio samples and sampling rates
