@@ -86,7 +86,7 @@ def main(csv_filename, clean_directory, output_dir):
 
 if __name__ == "__main__":
     arg_parser = argparse.ArgumentParser(description="A script to prepare the training data for the model.")
-    arg_parser.add_argument("--csv_filename", type=str, default="train.csv", help="A comma-separated value file that contains the raw training data.")
+    arg_parser.add_argument("--csv_filename", type=str, default="data/train.csv", help="A comma-separated value file that contains the raw training data.")
     arg_parser.add_argument("--clean_directory", type=str, default="clean_wavfiles", help="The directory that contains the cleaned wavfiles.")    
     arg_parser.add_argument("--output_dir", type=str, default="pickles", help="The directory to output the pickle files that contain the training data.")    
     args = arg_parser.parse_args()
