@@ -1,20 +1,21 @@
-# Intrument Classification
+# Instrument Classifier
 
-A machine learning classification project that predicts the instrument being played in a particular wavfile. Specifically, we visualize, clean, and format the data to feed them through either a convolutional or recurrent neural network for predictions. 
+A machine learning classification project that predicts an instrument being played in a particular wavfile. 
 
 ## Background Information / Documentation
-Notes and background information can be found on my [Gitbook](https://lauradang.gitbook.io/notes/side-projects/machine-learning-audio-classification)
+Notes and background information can be found on my [Gitbook](https://lauradang.gitbook.io/notes/machine-learning/machine-learning-audio-classification)
 
-## Steps to Run:
+## Results
+The model reaches a 97.3% validation accuracy.
+
+## Steps to Run
 1. Install dependencies using `pip install -r requirements.txt`.
-2. Run `visualizing.ipynb` Jupyter Notebook to produce a `clean` directory which contains the cleaned wavfiles.
-2. Run `prepare_data.py` to produce a `pickles` directory with two `config` objects (one for the CNN and one for the RNN).
-3. Run `model.py` to train the data on the models and produces a `saved_models` directory with the CNN and the RNN saved.
-4. Run `predict.py` to predict what instrument is being played in the respective wavfile and produces a `predictions` directory containing 2 CSVs of predictions.
+2. Raw wavfiles can be found in seth814's Github [repo](https://github.com/seth814/Audio-Classification/tree/018692a618ed4c3f9b9af7467a8246fc4fbaf1bb)
+3. Run `visualizing.ipynb` Jupyter Notebook to produce a directory that contains the cleaned wavfiles. Change constants as needed.
+4. Run `prepare_data.py` to produce a directory with the prepared training data as pickles.
+5. Run `train.py` to train the data on the model and produces a `saved_models` directory with the CNN saved.
 
 ## Mainly Built With
-
-* [Librosa](https://librosa.github.io/librosa/) - For retrieving audio sample rates
-* [Tensorflow - Keras](https://www.tensorflow.org/guide/keras) - Used to create CNN and RNN and train data
-* [Pandas](https://pandas.pydata.org/) - Cleaning and formatting data
-
+* [Scipy](https://docs.scipy.org/doc/scipy-0.14.0/reference/index.html) - For retrieving audio samples
+* [Tensorflow - Keras](https://www.tensorflow.org/guide/keras) - Used to create CNN
+* [python_speech_features](https://python-speech-features.readthedocs.io/en/latest/) - Extracting MFCCs for training data
