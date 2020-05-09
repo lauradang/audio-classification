@@ -1,4 +1,4 @@
-# Intrument Classification
+# Instrument Classifier
 
 A machine learning classification project that predicts an instrument being played in a particular wavfile. 
 
